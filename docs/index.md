@@ -28,7 +28,7 @@ import DocsCards from '@components/global/DocsCards';
 <intro-end />
 
 <DocsCards>
-  <DocsCard header="Installation Guide" href="/intro/cli" icon="/icons/guide-installation-icon.svg" hoverIcon="/icons/guide-installation-icon-hover.svg">
+  <DocsCard header="Installation Guide" href="/intro/installing-deps" icon="/icons/guide-installation-icon.svg" hoverIcon="/icons/guide-installation-icon-hover.svg">
     <p>Step-by-step guides to setting up your system and installing the framework.</p>
   </DocsCard>
 
@@ -55,11 +55,6 @@ The vision of the AI assistant is to empower farmers with the timely knowledge a
 - The user interface will allow users to toggle between the most commonly used languages (English & Odia) 
 
 
-## Requirements :scroll:
-
-[NodeJS](https://nodejs.org/en/download/) and NPM or [yarn](https://yarnpkg.com/getting-started/install)
-
-
 ## What's inside?
 
 This repo uses [Yarn](https://classic.yarnpkg.com/) as a package manager. It includes the following packages/apps:
@@ -81,28 +76,6 @@ This repo has some additional tools already setup for you:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-yarn run build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command: 
-
-```
-cd my-turborepo
-yarn run dev
-```
-
-## Designs
-![merge_from_ofoct](https://user-images.githubusercontent.com/65057795/231498806-b6b81917-673a-486a-9c80-88901805b4ec.jpg)
-
 
 
 ## Useful Links

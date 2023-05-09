@@ -4,7 +4,13 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
-      items: ['index', 'intro/environment', 'intro/cli'],
+      items: ['index', 'intro/environment', 'intro/installing-deps'],
+    },
+    {
+      type: 'category',
+      label: 'Development',
+      collapsed: false,
+      items: ['development/starting'],
     },
     
   ],
