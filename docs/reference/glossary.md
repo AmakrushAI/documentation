@@ -3,10 +3,10 @@ title: Glossary
 ---
 
 <head>
-  <title>API Glossary: Terminology and Definitions | Ionic Framework</title>
+  <title>API Glossary: Terminology and Definitions</title>
   <meta
     name="description"
-    content="Ionic is the platform for web developers. View our API Glossary for app-building terminology and keyword definitions to better understand Ionic's capabilities."
+    content="View our API Glossary for app-building terminology and keyword definitions to better understand AKAI's capabilities."
   />
 </head>
 
@@ -63,21 +63,6 @@ title: Glossary
   </p>
 </section>
 
-<section id="capacitor">
-  <a href="#capacitor">
-    <h3>Capacitor</h3>
-  </a>
-  <p>
-    <a href="https://capacitorjs.com/" target="_blank">
-      Capacitor
-    </a>{' '}
-    is an open source cross-platform app runtime that allows web-based apps to run natively on iOS, Android, Electron,
-    and the web. It's helpful to refer to these apps "Native Progressive Web Apps" and they represent the next evolution
-    beyond the traditional Hybrid app mentality. Capacitor was created and is actively developed/supported by Ionic, the
-    company.
-  </p>
-</section>
-
 <section id="cli">
   <a href="#cli">
     <h3>CLI</h3>
@@ -85,13 +70,7 @@ title: Glossary
   <p>
     A CLI, or <strong>C</strong>ommand-<strong>L</strong>ine <strong>I</strong>nterface, is a text-based interface for
     interacting with a program. The common command-line app for a Mac user is the Terminal app, and Windows users often
-    use Command Prompt. The Ionic community often uses this term to refer to{' '}
-    <a href="https://ionicframework.com/docs/v1/cli/">Ionic's CLI</a>. Ionic's CLI can be used for a number of things,
-    such as creating production builds of an app, running the development server, and accessing{' '}
-    <a href="https://ionic.io/appflow" target="_blank">
-      Ionic commercial services
-    </a>
-    .
+    use Command Prompt.
   </p>
 </section>
 
@@ -258,20 +237,6 @@ title: Glossary
   </p>
 </section>
 
-<section id="ionicons">
-  <a href="#ionicons">
-    <h3>Ionicons</h3>
-  </a>
-  <p>
-    <a href="https://ionic.io/ionicons/" target="_blank">
-      Ionicons
-    </a>{' '}
-    is an open-source icon set used and created by Ionic. It includes 1:1 iOS and Material Design icons, as well as
-    commonly used social/application icons. Ionicons is included by default in Ionic distributions, but they can also be
-    used in any project.
-  </p>
-</section>
-
 <section id="karma">
   <a href="#karma">
     <h3>Karma</h3>
@@ -325,8 +290,7 @@ title: Glossary
     <a href="https://nodejs.org/" target="_blank">
       Node
     </a>{' '}
-    is a runtime environment that allows JavaScript to be written on the server-side. In addition to being used for web
-    services, node is often used to build developer tools, such as the <a href="#cli">Ionic CLI</a>.
+    is a runtime environment that allows JavaScript to be written on the server-side. In addition to being used for web services, node is often used to build developer tools.
   </p>
 </section>
 
@@ -339,7 +303,7 @@ title: Glossary
       npm
     </a>{' '}
     is the package manager for <a href="#node">node</a>. It allows developers to install, share, and package node
-    modules. Ionic can be installed with npm, along with a number of its dependencies.
+    modules.
   </p>
 </section>
 
@@ -401,7 +365,7 @@ title: Glossary
     <h3>Sass</h3>
   </a>
   <p>
-    Sass is a stylesheet language that compiles to CSS and is used by Ionic. Sass is like CSS, but with extra features
+    Sass is a stylesheet language that compiles to CSS. Sass is like CSS, but with extra features
     such as{' '}
     <a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variables_" target="_blank">
       variables
@@ -469,9 +433,7 @@ title: Glossary
   </a>
   <p>
     Transpilation is the process of converting code from one language to another language prior to execution. Typically,
-    a transpiler will convert a high-level language to another high-level language. The most common type of{' '}
-    <em>transpilation</em> in Ionic Framework is converting <a href="#es2015-es6">ES2015/ES6</a> (
-    <a href="#typescript">TypeScript</a>) to <a href="#es5">ES5</a> (traditional JavaScript).
+    a transpiler will convert a high-level language to another high-level language.
   </p>
 </section>
 
@@ -491,7 +453,7 @@ title: Glossary
     <a href="http://www.typescriptlang.org/Handbook#interfaces" target="_blank">
       interfaces
     </a>
-    . Although Ionic is built with TypeScript, using it to build an Ionic app is completely optional.
+    . Although AKAI is built with TypeScript, using it to build AKAI app is completely optional.
   </p>
 </section>
 

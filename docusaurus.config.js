@@ -7,7 +7,7 @@ const VERSIONS_JSON = require('./versions.json');
 const BASE_URL = '/docs';
 
 module.exports = {
-  title: 'Samagra Documentation',
+  title: 'AKAI Documentation',
   tagline:
     'tag line',
   url: 'https://turbo-vercel-testjjjj.vercel.app/',
@@ -173,7 +173,7 @@ module.exports = {
           icon: {
             alt: 'github logo',
             src: `/logos/github.svg`,
-            href: 'https://github.com/Samagra-Development',
+            href: 'https://github.com/AmakrushAI',
             target: '_blank',
           },
         },
@@ -227,7 +227,7 @@ module.exports = {
             return 'https://crowdin.com/project/ionic-docs';
           }
           if ((match = docPath.match(/api\/(.*)\.md/)) != null) {
-            return `https://github.com/Samagra-Development/samagra-docs/tree/main/docs/api/${match[1]}.md`;
+            return `https://github.com/AmakrushAI/documentation/tree/main/docs/api/${match[1]}.md`;
           }
           if ((match = docPath.match(/cli\/commands\/(.*)\.md/)) != null) {
             return `https://github.com/ionic-team/ionic-cli/edit/develop/packages/@ionic/cli/src/commands/${match[1].replace(
@@ -238,7 +238,7 @@ module.exports = {
           if ((match = docPath.match(/native\/(.*)\.md/)) != null) {
             return `https://github.com/ionic-team/capacitor-plugins/edit/main/${match[1]}/README.md`;
           }
-          return `https://github.com/Samagra-Development/samagra-docs/edit/main/${versionDocsDirPath}/${docPath}`;
+          return `https://github.com/AmakrushAI/documentation/edit/main/${versionDocsDirPath}/${docPath}`;
         },
         exclude: ['README.md'],
         lastVersion: 'current',

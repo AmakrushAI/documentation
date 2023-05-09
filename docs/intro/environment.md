@@ -3,26 +3,23 @@ title: Environment Setup
 ---
 
 <head>
-  <title>Environment Setup | Node & NPM Environment for Ionic App Setup</title>
+  <title>Environment Setup | Node & NPM Environment for App Setup</title>
   <meta
     name="description"
-    content="To get started with Ionic Framework, the only requirement is a Node & npm environment. Learn what environment setup is required for your Ionic apps."
+    content="To get started with this app, the only requirement is a Node & npm environment."
   />
 </head>
 
-To get started with Ionic Framework, the only requirement is a [Node & npm](#node--npm) environment.
+To get started with AKAI, the only requirement is a [Node & npm](#node--npm) environment.
 
 Of course, a code editor is also required. [Visual Studio Code](https://code.visualstudio.com/) is recommended. Visual Studio Code is a free, batteries-included text editor made by Microsoft.
 
 ## Terminal
 
-
-In general, we recommend using the built-in terminals. Many third-party terminals work well with Ionic, but may not be supported.
+In general, we recommend using the built-in terminals. Many third-party terminals work well with AKAI, but may not be supported.
 
 - For Windows, **Command Prompt** and **PowerShell** are supported. <a href="https://docs.microsoft.com/en-us/windows/wsl/faq" target="_blank">WSL</a> is known to work with Ionic, but may not be supported.
 - For macOS, the built-in **Terminal** app is supported.
-
-Git Bash (from <a href="https://git-scm.com" target="_blank">git-scm.com</a>) does not support TTY interactivity and is **not supported** by Ionic.
 
 ## Node & npm
 
@@ -33,10 +30,9 @@ Node is bundled with [npm](../reference/glossary.md#npm), the package manager fo
 To verify the installation, open a new terminal window and run:
 
 ```shell
-$ node --version
-$ npm --version
+node --version
+npm --version
 ```
-
 
 
 ## Git
@@ -59,3 +55,7 @@ git --version
 ### Git GUI
 
 Git is a command-line utility, but there are many [GUI clients](https://git-scm.com/downloads/guis/) available. [GitHub Desktop](https://desktop.github.com/) is recommended, and works well with GitHub.
+
+## Conclusion
+
+With Node.js & npm, Visual Studio Code, a terminal, and Git installed on your machine, you have all the necessary tools to start working on AKAI!
