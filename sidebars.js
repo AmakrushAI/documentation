@@ -12,7 +12,12 @@ module.exports = {
       collapsed: false,
       items: ['development/starting'],
     },
-    
+    {
+      type: 'category',
+      label: 'Infra',
+      collapsed: false,
+      items: ['infra/overview', 'infra/setting-up'],
+    },
   ],
 
   // api: [{
