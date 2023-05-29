@@ -16,7 +16,7 @@ module.exports = {
       type: 'category',
       label: 'Infra',
       collapsed: false,
-      items: ['infra/overview', 'infra/setting-up'],
+      items: ['infra/overview', 'infra/setting-up', 'infra/scaling-disk-size'],
     },
   ],
 
