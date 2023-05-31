@@ -16,7 +16,13 @@ module.exports = {
       type: 'category',
       label: 'Infra',
       collapsed: false,
-      items: ['infra/overview', 'infra/setting-up', 'infra/scaling-disk-size'],
+      items: ['infra/overview', 'infra/setting-up', 'infra/scaling-disk-size', 'infra/scaling-vm-horizontally'],
+    },
+    {
+      type: 'category',
+      label: 'Devops',
+      collapsed: false,
+      items: ['devops/add-vms-to-swarm'],
     },
   ],
 
