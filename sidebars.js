@@ -22,7 +22,7 @@ module.exports = {
       type: 'category',
       label: 'Devops',
       collapsed: false,
-      items: ['devops/add-vms-to-swarm'],
+      items: ['devops/setup', 'devops/add-vms-to-swarm'],
     },
   ],
 
