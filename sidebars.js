@@ -30,6 +30,12 @@ module.exports = {
       collapsed: false,
       items: ['devops/add-vms-to-swarm'],
     },
+    {
+      type: 'category',
+      label: 'Tech Stack',
+      collapsed: false,
+      items: ['stack/tech-stack'],
+    },
   ],
 
   // api: [{
