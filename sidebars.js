@@ -18,6 +18,12 @@ module.exports = {
       collapsed: false,
       items: ['infra/overview', 'infra/setting-up'],
     },
+    {
+      type: 'category',
+      label: 'Tech Stack',
+      collapsed: false,
+      items: ['stack/tech-stack'],
+    },
   ],
 
   // api: [{
