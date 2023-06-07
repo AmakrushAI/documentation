@@ -14,6 +14,12 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Building Blocks',
+      collapsed: false,
+      items: ['buildingBlocks/flow', 'buildingBlocks/state-flow'],
+    },
+    {
+      type: 'category',
       label: 'Infra',
       collapsed: false,
       items: ['infra/overview', 'infra/setting-up'],
